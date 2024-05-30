@@ -4,18 +4,19 @@ require("Tepz.plugins.treesitter")
 require("Tepz.plugins.mason-lsp")
 
 vim.o.number = true
-local theme = "gruvbox"
-vim.cmd("colorscheme " .. theme)
 
 -- Transparent command
 local Transparent = true
+local theme = "gruvbox"
+
+vim.cmd("colorscheme " .. theme)
 function ToggleBackground()
-    if Transparent == false then
+    if Transparent == true then
         vim.cmd('highlight Normal guibg=none')
-        Transparent = true
+        Transparent = false
     else
         vim.cmd('colorscheme ' .. theme)
-        Transparent = false
+        Transparent = true
     end
 end
 
