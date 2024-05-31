@@ -25,4 +25,5 @@ require("lazy").setup({
 	"ellisonleao/gruvbox.nvim",
 	"nvim-lua/plenary.nvim",
 	"nvim-telescope/telescope.nvim",
+	"jiangmiao/auto-pairs",
 })
