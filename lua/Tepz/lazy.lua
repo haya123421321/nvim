@@ -19,14 +19,16 @@ require("lazy").setup({
 	"hrsh7th/cmp-nvim-lsp",
 	"L3MON4D3/LuaSnip",
 
-	"nvim-treesitter/nvim-treesitter",
+	"ellisonleao/gruvbox.nvim",
 	"scottmckendry/cyberdream.nvim",
 	"rose-pine/neovim",
-	"ellisonleao/gruvbox.nvim",
+
+	"nvim-treesitter/nvim-treesitter",
 	"nvim-lua/plenary.nvim",
 	"nvim-telescope/telescope.nvim",
 	"mg979/vim-visual-multi",
 	"windwp/nvim-autopairs",
+	"windwp/nvim-ts-autotag",
 	"kylechui/nvim-surround",
 	"ThePrimeagen/vim-be-good",
 })
