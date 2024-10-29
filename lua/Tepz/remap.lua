@@ -28,4 +28,7 @@ vim.keymap.set("v", "(", "<esc>`>a)<esc>`<i(<esc>gv", { remap = false})
 vim.keymap.set("v", "{", "<esc>`>a}<esc>`<i{<esc>gv", { remap = false})
 vim.keymap.set("v", "[", "<esc>`>a]<esc>`<i[<esc>gv", { remap = false})
 
-
+vim.keymap.set({"n", "i", "v"}, "<S-Up>", "<C-b>zz", { noremap = true, silent = true })
+vim.keymap.set({"n", "i", "v"}, "<S-Down>", "<C-f>zz", { noremap = true, silent = true })
+vim.keymap.set({"n", "i", "v"}, "<C-b>", "<C-b>zz", { noremap = true, silent = true })
+vim.keymap.set({"n", "i", "v"}, "<C-f>", "<C-f>zz", { noremap = true, silent = true })
